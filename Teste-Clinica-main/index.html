@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clínica TecnoMed Center</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- MENU FIXO -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">TecnoMed</a>
+      <ul class="nav-links">
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="#formulario">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header id="home">
+    <div class="container-header">
+      <h1 class="titulo-principal">Clínica TecnoMed Center</h1>
+      <p class="subtitulo">Soluções completas em saúde e bem-estar com tecnologia de ponta</p>
+    </div>
+  </header>
+
+  <main>
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="servicos">
+      <h2>Nossos Serviços</h2>
+      <div class="grid-servicos">
+        <div class="card fade-in">
+          <img src="img/consultas.jpg" alt="Consultas" class="img-servico">
+          <i class="fas fa-stethoscope icone"></i>
+          <h3>Consultas Médicas</h3>
+          <p>Atendimento clínico com profissionais capacitados em diversas especialidades.</p>
+        </div>
+        <div class="card fade-in">
+          <img src="img/exames-laboratoriais.jpg" alt="Exames Laboratoriais" class="img-servico">
+          <i class="fas fa-vials icone"></i>
+          <h3>Exames Laboratoriais</h3>
+          <p>Coleta e análise de exames com agilidade e precisão.</p>
+        </div>
+        <div class="card fade-in">
+          <img src="img/exames-imagem.jpg" alt="Exames de Imagem" class="img-servico">
+          <i class="fas fa-x-ray icone"></i>
+          <h3>Exames de Imagem</h3>
+          <p>Ultrassonografia, raio-x e outros exames por imagem com tecnologia de ponta.</p>
+        </div>
+        <div class="card fade-in">
+          <img src="img/nutricao.jpg" alt="Nutrição" class="img-servico">
+          <i class="fas fa-apple-alt icone"></i>
+          <h3>Nutrição</h3>
+          <p>Acompanhamento nutricional personalizado para todas as idades.</p>
+        </div>
+        <div class="card fade-in">
+          <img src="img/cardiologia.jpg" alt="Cardiologia" class="img-servico">
+          <i class="fas fa-heartbeat icone"></i>
+          <h3>Cardiologia</h3>
+          <p>Consultas e exames voltados para a saúde do coração.</p>
+        </div>
+        <div class="card fade-in">
+          <img src="img/neurologia.jpg" alt="Neurologia" class="img-servico">
+          <i class="fas fa-brain icone"></i>
+          <h3>Neurologia</h3>
+          <p>Diagnóstico e tratamento de doenças neurológicas com especialistas qualificados.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EQUIPE -->
+    <section id="equipe" class="equipe">
+      <h2>Nossa Equipe</h2>
+      <div class="grid-equipe">
+        <div class="membro fade-in">
+          <img src="img/diretora.jpg" alt="Diretora Clínica">
+          <p><strong>Dra. Ana Souza</strong><br>Diretora Clínica</p>
+        </div>
+        <div class="membro fade-in">
+          <img src="img/cardiologista.jpg" alt="Cardiologista">
+          <p><strong>Dr. Carlos Mendes</strong><br>Cardiologista</p>
+        </div>
+        <div class="membro fade-in">
+          <img src="img/neurologista.jpg" alt="Neurologista">
+          <p><strong>Dra. Fernanda Lima</strong><br>Neurologista</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULÁRIO -->
+    <section id="formulario" class="formulario">
+      <h2>Quer saber mais?</h2>
+      <form class="fade-in">
+        <div class="input-group">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="Nome" required>
+        </div>
+        <div class="input-group">
+          <i class="fas fa-envelope"></i>
+          <input type="email" placeholder="E-mail" required>
+        </div>
+        <div class="input-group">
+          <i class="fas fa-city"></i>
+          <input type="text" placeholder="Cidade" required>
+        </div>
+        <div class="input-group">
+          <i class="fas fa-map-marker-alt"></i>
+          <input type="text" placeholder="Estado" required>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- BOTÃO FLUTUANTE -->
+  <a href="#formulario" class="btn-flutuante">
+    <i class="fas fa-calendar-check"></i> Agendar Consulta
+  </a>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <p>&copy; 2025 Clínica TecnoMed Center. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
