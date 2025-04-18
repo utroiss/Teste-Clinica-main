@@ -2,7 +2,7 @@
 
 Projeto de landing page desenvolvido em **HTML5** e **CSS3** com foco em design moderno, responsivo e funcional, representando a clínica fictícia **TecnoMed Center**.
 
-## Como executar
+## 🌐 Onde acessar
 Acessar via Github pages diretamente pelo navegador: https://utroiss.github.io/Teste-Clinica-main/
  
 ## 📁 Estrutura de Pastas
